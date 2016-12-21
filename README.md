@@ -14,7 +14,7 @@ Then point your web browser to [http://localhost:8089/](http://localhost:8089/)
 
 ## Kubernetes Deployment
 
-1. Create a ConfigMap containing your locustfile.py and its dependencies. The command below creates a config map containing files placed in the local directory `locust-tasks`.
+1. Create a ConfigMap containing your locustfile.py and its dependencies. The command below creates a ConfigMap containing files placed in the local directory `locust-tasks`.
 
 	```bash
 	kubectl create configmap locust-configmap --from-file=locust-tasks/
