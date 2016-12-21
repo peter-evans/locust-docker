@@ -14,15 +14,15 @@ Then point your web browser to [http://localhost:8089/](http://localhost:8089/)
 
 ## Kubernetes Deployment
 
-1. Create a ConfigMap containing your locustfile and its dependencies. The command below creates a config map containing files placed in the local directory `locust-tasks`.
+1. Create a ConfigMap containing your locustfile.py and its dependencies. The command below creates a config map containing files placed in the local directory `locust-tasks`.
 
 	```bash
 	kubectl create configmap locust-configmap --from-file=locust-tasks/
 	```
 
-2. Edit the deployment configuration files and set environment variables `LOCUST_LOCUSTFILE_PATH` and `LOCUST_TARGET_HOST`
+2. Edit the deployment configuration files and set environment variable `LOCUST_TARGET_HOST`.
 
-3. Deploy the master and slave deployments
+3. Deploy the master and slave deployments.
 
 	```bash
     kubectl create -f ./locust-master.yaml
