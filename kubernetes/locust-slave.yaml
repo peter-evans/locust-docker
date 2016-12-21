@@ -1,0 +1,31 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: locust-slave
+spec:
+  replicas: 10
+  template:
+    metadata:
+      labels:
+        name: locust
+        role: slave
+    spec:
+      volumes:
+      - name: locust-volume
+        configMap:
+          name: locust-configmap    
+      containers:
+        - name: locust
+          image: peterevans/locust:latest
+          env:
+            - name: LOCUST_MODE
+              value: slave
+            - name: LOCUST_MASTER
+              value: locust-master
+            - name: LOCUST_LOCUSTFILE_PATH
+              value: "/locust-tasks/locustfile.py"
+            - name: LOCUST_TARGET_HOST
+              value: "https://example.com"
+          volumeMounts:
+          - name: locust-volume
+            mountPath: /locust-tasks
