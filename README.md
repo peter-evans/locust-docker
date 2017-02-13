@@ -3,7 +3,7 @@ Docker image for the [Locust](http://locust.io/) load testing tool and sample Ku
 
 [![](https://images.microbadger.com/badges/image/peterevans/locust.svg)](https://microbadger.com/images/peterevans/locust "Get your own image badge on microbadger.com")
 
-# Supported tags and respective `Dockerfile` links
+## Supported tags and respective `Dockerfile` links
 
 - [`1.0.0`, `1.0`, `latest`  (*1.0/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.0)
 
