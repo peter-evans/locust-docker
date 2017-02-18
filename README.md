@@ -1,7 +1,7 @@
 # Locust Docker
-Docker image for the [Locust](http://locust.io/) load testing tool and sample Kubernetes configuration files for distributed deployment.
+[![](https://images.microbadger.com/badges/image/peterevans/locust.svg)](https://microbadger.com/images/peterevans/locust)
 
-[![](https://images.microbadger.com/badges/image/peterevans/locust.svg)](https://microbadger.com/images/peterevans/locust "Get your own image badge on microbadger.com")
+Docker image for the [Locust](http://locust.io/) load testing tool and sample Kubernetes configuration files for distributed deployment.
 
 ## Supported tags and respective `Dockerfile` links
 
