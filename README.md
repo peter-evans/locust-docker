@@ -5,7 +5,7 @@ Docker image for the [Locust](http://locust.io/) load testing tool and sample Ku
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`1.0.0`, `1.0`, `latest`  (*1.0/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.0)
+- [`1.0.1`, `1.0`, `latest`  (*1.0/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.0)
 
 ## Usage
 The Docker image can be run standalone by passing a URL to your locustfile:
