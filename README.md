@@ -6,6 +6,7 @@ Docker image for the [Locust](http://locust.io/) load testing tool and sample Ku
 ## Supported tags and respective `Dockerfile` links
 
 - [`1.1.0`, `1.1`, `latest`  (*1.1/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.1)
+- [`1.1.0-python2`, `1.1-python2`, `python2`  (*1.1/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.1/python2)
 - [`1.0.1`, `1.0` (*1.0/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.0)
 
 ## Usage
