@@ -20,4 +20,4 @@ elif [[ "$LOCUST_MODE" = "slave" ]]; then
     LOCUST_FLAGS="$LOCUST_FLAGS --slave --master-host=$LOCUST_MASTER"
 fi
 
-$LOCUST_PATH $LOCUST_FLAGS
+exec $LOCUST_PATH $LOCUST_FLAGS
