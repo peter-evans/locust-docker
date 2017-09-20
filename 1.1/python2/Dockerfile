@@ -1,4 +1,4 @@
-FROM python:2.7.13
+FROM python:2.7.14
 
 MAINTAINER Peter Evans <pete.evans@gmail.com>
 
