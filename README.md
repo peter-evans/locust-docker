@@ -1,5 +1,6 @@
 # Locust Docker
 [![](https://images.microbadger.com/badges/image/peterevans/locust.svg)](https://microbadger.com/images/peterevans/locust)
+[![Build Status](https://travis-ci.org/peter-evans/locust-docker.svg?branch=master)](https://travis-ci.org/peter-evans/locust-docker)
 
 Docker image for the [Locust](http://locust.io/) load testing tool and sample Kubernetes configuration files for distributed deployment.
 
