@@ -1,13 +1,9 @@
 services:
   - docker
 
-env:
-  global:
-    - RELEASE_VERSION=1.2
-
 install:
-  - docker build -t locust:latest ./$RELEASE_VERSION
-  - docker build -t locust:python2 ./$RELEASE_VERSION/python2
+  - docker build -t locust:latest .
+  - docker build -t locust:python2 ./python2
   - docker run -d -p 8089:8089 locust:latest
   - docker run -d -p 8090:8089 locust:python2
 

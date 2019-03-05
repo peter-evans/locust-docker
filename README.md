@@ -1,13 +1,14 @@
 # Locust Docker
 [![](https://images.microbadger.com/badges/image/peterevans/locust.svg)](https://microbadger.com/images/peterevans/locust)
 [![Build Status](https://travis-ci.org/peter-evans/locust-docker.svg?branch=master)](https://travis-ci.org/peter-evans/locust-docker)
+[![CircleCI](https://circleci.com/gh/peter-evans/locust-docker/tree/master.svg?style=svg)](https://circleci.com/gh/peter-evans/locust-docker/tree/master)
 
 Docker image for the [Locust](http://locust.io/) load testing tool and sample Kubernetes configuration files for distributed deployment.
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`1.2.1`, `1.2`, `latest`  (*1.2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.2)
-- [`1.2.1-python2`, `1.2-python2`, `python2`  (*1.2/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.2/python2)
+- [`1.2.2`, `1.2`, `latest`  (*1.2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.2)
+- [`1.2.2-python2`, `1.2-python2`, `python2`  (*1.2/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.2/python2)
 - [`1.1.1`, `1.1` (*1.1/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.1)
 - [`1.1.1-python2`, `1.1-python2` (*1.1/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.1/python2)
 - [`1.0.1`, `1.0` (*1.0/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/1.0)
