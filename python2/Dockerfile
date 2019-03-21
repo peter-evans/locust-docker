@@ -1,6 +1,13 @@
 FROM python:2.7.15
 
-MAINTAINER Peter Evans <pete.evans@gmail.com>
+LABEL \
+  maintainer="Peter Evans <mail@peterevans.dev>" \
+  org.opencontainers.image.title="locust:python2" \
+  org.opencontainers.image.description="Docker image for Locust load testing tool." \
+  org.opencontainers.image.authors="Peter Evans <mail@peterevans.dev>" \
+  org.opencontainers.image.url="https://github.com/peter-evans/locust-docker" \
+  org.opencontainers.image.vendor="https://peterevans.dev" \
+  org.opencontainers.image.licenses="MIT"
 
 # Install packages
 COPY requirements.txt /tmp/
