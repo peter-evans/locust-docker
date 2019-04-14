@@ -1,8 +1,8 @@
-FROM python:3.7.3
+FROM python:2.7.15
 
 LABEL \
   maintainer="Peter Evans <mail@peterevans.dev>" \
-  org.opencontainers.image.title="locust" \
+  org.opencontainers.image.title="locust:python2" \
   org.opencontainers.image.description="Docker image for Locust load testing tool." \
   org.opencontainers.image.authors="Peter Evans <mail@peterevans.dev>" \
   org.opencontainers.image.url="https://github.com/peter-evans/locust-docker" \

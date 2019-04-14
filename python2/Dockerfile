@@ -1,4 +1,4 @@
-FROM python:2.7.15
+FROM python:2.7.16
 
 LABEL \
   maintainer="Peter Evans <mail@peterevans.dev>" \
