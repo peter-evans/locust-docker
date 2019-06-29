@@ -4,5 +4,12 @@
   ],
   "ignorePaths": [
     "archive/"
+  ],
+  "packageRules": [
+    {
+      "excludePackagePatterns": [
+        "[0-9.]+b[0-9]+"
+      ]
+    }
   ]
 }
