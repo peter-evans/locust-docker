@@ -6,13 +6,15 @@ Docker image for the [Locust](http://locust.io/) load testing tool and sample Ku
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`1.3.1`, `1.3`, `latest`  (*1.3/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master)
-- [`1.3.1-python2`, `1.3-python2`, `python2`  (*1.3/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/python2)
-- [`1.2.3`, `1.2` (*1.2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/archive/1.2)
-- [`1.2.3-python2`, `1.2-python2` (*1.2/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/archive/1.2/python2)
-- [`1.1.1`, `1.1` (*1.1/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/archive/1.1)
-- [`1.1.1-python2`, `1.1-python2` (*1.1/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/archive/1.1/python2)
-- [`1.0.1`, `1.0` (*1.0/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/master/archive/1.0)
+- [`1.4.0`, `1.4`, `latest`  (*1.4/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.4.0)
+- [`1.4.0-python2`, `1.4-python2`, `python2`  (*1.4/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.4.0/python2)
+- [`1.3.1`, `1.3`, `latest`  (*1.3/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.3.1)
+- [`1.3.1-python2`, `1.3-python2`, `python2`  (*1.3/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.3.1/python2)
+- [`1.2.3`, `1.2` (*1.2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.2.3)
+- [`1.2.3-python2`, `1.2-python2` (*1.2/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.2.3/python2)
+- [`1.1.1`, `1.1` (*1.1/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.1.1)
+- [`1.1.1-python2`, `1.1-python2` (*1.1/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.1.1/python2)
+- [`1.0.1`, `1.0` (*1.0/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.0.1)
 
 ## Usage
 The Docker image can be run standalone by passing a URL to your locustfile:
