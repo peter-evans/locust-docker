@@ -3,7 +3,7 @@ gevent==1.4.0
 greenlet==0.4.15
 itsdangerous==1.1.0
 Jinja2==2.10.3
-locustio==0.13.2
+locustio==0.13.3
 MarkupSafe==1.1.1
 msgpack-python==0.5.6
 pyzmq==18.1.1
