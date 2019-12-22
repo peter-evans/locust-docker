@@ -1,5 +1,5 @@
 Flask==1.1.1
-gevent==1.4.0
+gevent==1.5a2
 greenlet==0.4.15
 itsdangerous==1.1.0
 Jinja2==2.10.3
