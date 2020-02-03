@@ -6,7 +6,8 @@ Docker image for the [Locust](http://locust.io/) load testing tool and sample Ku
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`1.5.5`, `1.5`, `latest`  (*1.5/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.5.5)
+- [`1.6.0`, `1.6`, `latest`  (*1.6/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.6.0)
+- [`1.5.5`, `1.5`  (*1.5/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.5.5)
 - [`1.5.5-python2`, `1.5-python2`, `python2`  (*1.5/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.5.5/python2)
 - [`1.4.1`, `1.4` (*1.4/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.4.1)
 - [`1.4.1-python2`, `1.4-python2` (*1.4/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.4.1/python2)
