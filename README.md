@@ -6,14 +6,9 @@ Docker image for the [Locust](http://locust.io/) load testing tool and sample Ku
 
 ## Supported tags and respective `Dockerfile` links
 
+- [`1.6.3`, `1.6`, `latest`, `1.6.3-locustio0.14.5`, `1.6-locustio0.14.5`, `latest-locustio0.14.5`  (*1.6/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.6.3)
 - [`1.6.2`, `1.6`, `latest`, `1.6.2-locustio0.14.4`, `1.6-locustio0.14.4`, `latest-locustio0.14.4`  (*1.6/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.6.2)
 - [`1.6.1`, `1.6`  (*1.6/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.6.1)
-- [`1.5.5`, `1.5`  (*1.5/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.5.5)
-- [`1.5.5-python2`, `1.5-python2`, `python2`  (*1.5/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.5.5/python2)
-- [`1.4.1`, `1.4` (*1.4/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.4.1)
-- [`1.4.1-python2`, `1.4-python2` (*1.4/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.4.1/python2)
-- [`1.3.1`, `1.3` (*1.3/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.3.1)
-- [`1.3.1-python2`, `1.3-python2` (*1.3/python2/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.3.1/python2)
 
 ## Usage
 The Docker image can be run standalone by passing a URL to your locustfile:
