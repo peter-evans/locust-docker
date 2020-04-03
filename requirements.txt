@@ -1,4 +1,4 @@
-Flask==1.1.1
+Flask==1.1.2
 gevent==1.5a3
 greenlet==0.4.15
 itsdangerous==1.1.0
