@@ -6,9 +6,10 @@ Docker image for the [Locust](http://locust.io/) load testing tool and sample Ku
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`1.6.3`, `1.6`, `latest`, `1.6.3-locustio0.14.5`, `1.6-locustio0.14.5`, `latest-locustio0.14.5`  (*1.6/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.6.3)
-- [`1.6.2`, `1.6`, `latest`, `1.6.2-locustio0.14.4`, `1.6-locustio0.14.4`, `latest-locustio0.14.4`  (*1.6/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.6.2)
-- [`1.6.1`, `1.6`  (*1.6/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.6.1)
+- [`1.6.4`, `1.6`, `latest`, `1.6.4-locustio0.14.6`, `1.6-locustio0.14.6`, `latest-locustio0.14.6`  (*1.6/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.6.4)
+- [`1.6.3`, `1.6.3-locustio0.14.5`, `1.6-locustio0.14.5`, `latest-locustio0.14.5`  (*1.6/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.6.3)
+- [`1.6.2`, `1.6.2-locustio0.14.4`, `1.6-locustio0.14.4`, `latest-locustio0.14.4`  (*1.6/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.6.2)
+- [`1.6.1`  (*1.6/Dockerfile*)](https://github.com/peter-evans/locust-docker/tree/v1.6.1)
 
 ## Usage
 The Docker image can be run standalone by passing a URL to your locustfile:
