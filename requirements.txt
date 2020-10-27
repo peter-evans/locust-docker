@@ -1,6 +1,6 @@
 Flask==1.1.2
 gevent==20.5.0
-greenlet==0.4.15
+greenlet==0.4.17
 itsdangerous==1.1.0
 Jinja2==2.11.2
 locustio==0.14.6
